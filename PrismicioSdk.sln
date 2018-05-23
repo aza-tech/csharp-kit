@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C4750F62-AD0E-4043-97CB-715D4FBCA85F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A4A96FEF-DE68-4EBD-BAE5-BB67396C0D7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prismic", "src\Prismic\Prismic.csproj", "{16CCD721-3535-4266-A5FD-5C66FB0081B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prismic.Test", "test\Prismic.Test\Prismic.Test.csproj", "{C98ABCC2-D790-4F6A-B975-2238D1926B2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16CCD721-3535-4266-A5FD-5C66FB0081B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16CCD721-3535-4266-A5FD-5C66FB0081B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16CCD721-3535-4266-A5FD-5C66FB0081B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16CCD721-3535-4266-A5FD-5C66FB0081B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C98ABCC2-D790-4F6A-B975-2238D1926B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98ABCC2-D790-4F6A-B975-2238D1926B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98ABCC2-D790-4F6A-B975-2238D1926B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98ABCC2-D790-4F6A-B975-2238D1926B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16CCD721-3535-4266-A5FD-5C66FB0081B0} = {C4750F62-AD0E-4043-97CB-715D4FBCA85F}
+		{C98ABCC2-D790-4F6A-B975-2238D1926B2E} = {A4A96FEF-DE68-4EBD-BAE5-BB67396C0D7F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0DF1357-0452-458F-ACA1-A6031A1921EC}
+	EndGlobalSection
+EndGlobal
